@@ -83,6 +83,7 @@ const Index = () => {
             </Button>
           </FormControl>
         </form>
+        <Code>Logged in: {isLoggedIn ? 'true' : 'false'} </Code>
         <Code>{JSON.stringify(loginMeta ?? {}, null, 2)}</Code>
       </Main>
 
